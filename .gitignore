@@ -6,3 +6,22 @@ debug
 foo.*
 *.log
 data
+
+# Lazy.nvim state
+/lazy-lock.json
+
+# Neovim runtime/state/cache
+/.cache
+/state
+/.local/share/nvim
+/.local/state/nvim
+
+# Swap/backup/undo files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# LSP servers (heavy, reinstalled automatically)
+mason/
+
